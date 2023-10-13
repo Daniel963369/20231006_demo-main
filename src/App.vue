@@ -70,7 +70,7 @@ export default {
       <div class="content">
         <div class="block" v-for="item in arr">
           <span>{{ item.name }}</span>
-          <span>{{ item.money }}</span>
+          <input type="number">{{ item.money }}
           <button type="button" class="blockBtn">Delete</button>
         </div>
       </div>
@@ -166,6 +166,13 @@ export default {
         font-size: 24pt;
         border:2px solid #3C7FA5;
         margin-bottom:3%;
+
+        input{
+          color:blue;
+          font-size:30px;
+          width:200px;
+          height:50px;
+        }
 
         .blockBtn{
           background-color:rgb(19, 19, 79);
