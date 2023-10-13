@@ -16,22 +16,22 @@ export default {
     cool() {
       let obj = {
         name: "Breakfast",
-        money: 65
+        money: ""
       }
 
       let obj2 = {
         name: "lunch",
-        money: 90
+        money: ""
       }
 
       let obj3 = {
         name: "Design Case",
-        money: 10000
+        money:""
       }
 
       let obj4 = {
         name: "BlueRay Video",
-        money: 1420
+        money:""
       }
       this.arr.push(obj)
       this.arr.push(obj2)
